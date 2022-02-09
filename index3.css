@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+#main{
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:70px;
+    background-color: white;
+    box-shadow:  5px 10px 30px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.logo img{
+    height: 80px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+}
+
+.menu li a{
+      
+    height: 35px;
+    line-height: 30px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: green;
+}
+a{
+    text-decoration: none;
+
+}
+
+.menu li a:hover{
+    background-color: red;
+    color:white;
+    box-shadow: 5px 10px 30px white;
+    transition: all ease 0.2s;
+
+}
+
+#main2{
+
+background-color: white;  
+height: 800px;
+width: 1250px;
+margin: 100px 50px; 
+box-shadow: 5px 10px 30px black;
+
+}
+
+.bro{
+     /* background-color: rgb(243, 132, 132); */
+     height: 400px;
+     width: 600px;
+     margin: -250px 300px;
+     
+
+}
+
+.namee{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    text-indent: 90px ;
+    padding: 20px;
+    font-size: x-large;
+
+
+}
+.dob{
+    height: 200px;
+    width: 500px;
+    text-align: left;
+    text-indent: 30px;
+    padding: 20px;
+    font-size: x-large;
+}
+.li{
+    height: 200px;
+    width: 800px;
+    text-align: left;
+    text-indent: 30px;
+    padding: 20px;
+    margin: 100px 70px;
+    font-size: x-large;
+}
+.xith{
+    height: 200px;
+    width: 500px;
+    text-align: left;
+    text-indent: 30px;
+    padding: 20px;
+    font-size: x-large;
+}
+.iith{
+    height: 200px;
+    width: 500px;
+    text-align: left;
+    text-indent: 30px;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.namee1{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    /* padding: 30px; */
+    text-indent: 140px;
+    margin-top: -190px;
+    margin: -205px 50px;
+    padding: 0px;
+    font-size: x-large;
+}
+
+.dob1{
+    height: 200px;
+    width: 400px;
+    text-align: right;
+    font-size: x-large;
+    margin-top: -30px;
+    margin: -205px -60px;
+}
+
+.xith1{
+    height: 200px;
+    width: 400px;
+    text-align: right;
+    font-size: x-large;
+    margin-top: -30px;
+    margin: -205px -60px;
+}
+.rani1{
+    /* height: 200px;
+    width: 400px; */
+    text-align: right;
+    font-size: x-large;
+    margin-top: -100px;
+    margin: -20px 180px;
+    text-shadow: 2px 2px 8px red ;
+    
+      
+}
+
+.iith1{
+    height: 200px;
+    width: 400px;
+    text-align: right;
+    font-size: x-large;
+    margin-top: -30px;
+    margin: -205px -60px;
+}
+
+
+.random{
+   
+    margin: 80px 420px;
+    padding: 20px;
+}
+.randi{
+  height: 200px;
+  width: 40px;
+}
+
+.rando{
+    height: 100px;
+    width: 400px;
+    margin: 20px 400px;
+  
+}
+.ran{
+    padding: 20px;
+    height: 20px;
+    width: 100px;
+    margin-top: -100px;
+}
+.r1{
+   padding: 20px;
+   font-size: 20pt;
+   font-family: sans-serif;
+}
+
+#rand{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(163, 20, 135);
+    color: white;
+    border-radius: 20px;
+
+}
+
+#list{
+    height: 200px;
+    width: 700px;
+    margin: 50px 60px;
+    margin-top: -450px;
+    
+}
+
+.out{
+
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin: 50px 800px;
+    margin-top: -250px;
+}
+#send1{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    margin: 60px 80px;
+    margin-top: -200px;
+    border-radius: 20px;
+
+}
+#send5{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    margin: 60px 400px;
+   
+    border-radius: 20px;
+}
+
+.ckc{
+    margin: 50px 100px;
+
+}
+
+#clgr{
+    height: 300px;
+    width: 700px;
+}
+
+#send3{
+    height: 40px;
+    width: 60px;
+    margin: 90px 850px;
+    margin-top: -700px;
+
+}
+
+
+
+
+#ram{
+    background-color:rgb(247, 174, 214);
+    height: 650px;
+    width: 1180px;
+    margin: 30px;
+    box-shadow: 5px 10px 30px black;
+
+}
+.pic{
+    height: 200px;
+    width: 200px;
+    margin:20px;
+    box-shadow: 5px 10px 30px blue;
+}
+
+
+

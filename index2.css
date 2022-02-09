@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form{
+
+    height: 100%;
+    width: 100%;
+    background: url("ShangriLaSkyCaptain.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box{
+     height: 630px;
+     width: 1200px;
+     background-color: rgba(207, 204, 204, 0.664);
+     margin: 10px 100px;
+     position: relative;
+     border-radius: 20px;
+     
+
+}
+
+.name{
+    padding: 2px ;
+    margin: 2px 24px;
+}
+.name p{
+    text-indent: 30px;
+    font-size: large;
+}
+
+.inp1{
+    /* color: red; */
+    padding: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+    color: black;
+}
+
+.add{
+    padding: 20px;
+    text-indent: 20px;
+    font-size: large;
+}
+
+.add p{
+    text-align: left;
+    text-indent: 20px;
+    padding: 2px;
+}
+.inp2{
+    padding: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+}
+
+.idc{
+    padding: 20px;
+     text-indent: 20px;
+     font-size: large;
+}
+
+.inp3{
+    padding: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+
+.marks{
+    padding:5px;
+}
+.thead{
+
+    padding:20px;
+}
+.tr1{
+    padding:20px;
+    color:red;
+    
+}
+.xth{
+    padding:20px;
+    border-top:0;
+    border-left:0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size:medium;
+    background: transparent;
+}
+
+.cutx{
+    padding:20px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: medium;
+    background: transparent;
+}
+
+.iith{
+    padding:20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline:none;
+    font-size: medium;
+    background: transparent;
+}
+.tr2{
+    color: red;
+    padding: 20px;
+}
+
+.cutii{
+    padding: 20px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: medium;
+    background: transparent;
+}
+
+.pic{
+    margin: 0px 800px;
+    margin-top: -80px;
+ 
+}
+.lab{
+  color:red;
+  width: 20px;
+
+}
+.age{
+    height: 20px;
+    border-style: dotted;
+ 
+}
+.imgg{
+    margin:0px 20px;
+    margin-top: -200px;
+    height: 100px;
+    width: 100px;
+   box-sizing: border-box;
+   box-shadow: 0 0 10px 10px white;
+
+}
+
+.pic2{
+    margin:0px 800px;
+}
+.imgg2{
+    margin:0px 20px;
+    margin-top:-150px;
+    height:100px;
+    width: 100px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 10px white;
+}
+
+.but{
+
+   
+  margin: 0px 800px;
+   
+}
+
+.btn2{
+    margin-top: -100px;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px red;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+}
+.btn2::hover{
+    border-bottom: ;
+}

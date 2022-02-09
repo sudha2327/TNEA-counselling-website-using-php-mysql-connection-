@@ -1,0 +1,20 @@
+CREATE TABLE sudha(
+    firstname varchar(20) NOT NULL,
+    lastname varchar(20) NOT NULL,
+     age  varchar(20) ,
+     dob   varchar(30) NOT NULL,
+     street_name varchar(20) ,
+     villagename varchar(20),
+     dist_name varchar(20),
+     pincode varchar(20),
+     state_name varchar(20),
+     nation varchar(20),
+     userid varchar(20) NOT NULL,
+     pass_word varchar(20) NOT NULL,
+     10thmark varchar(20) not null,
+     12thmark varchar(20) not null,
+     10thcut varchar(20) ,
+     12thcut varchar(20),
+     profile_pic varbinary(max),
+    
+);

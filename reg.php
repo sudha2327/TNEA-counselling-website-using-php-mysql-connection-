@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title>Register Page</title>
+        <link rel="stylesheet" href="index2.css">
+    </head>
+    <body>
+        <form action="register.php" method="post">
+        <div class="form">
+           
+              <div class="form-box">
+                  <div class="name">
+                      <p>Name</p>
+                      <input type="text"  class="inp1" name="name1" placeholder="first name" required>
+                      <input type="text" class="inp1" name="name2" placeholder="last name" required> 
+                  </div>
+                  <br></br>
+                  <div class="add">
+                      <p>Personal details</p>
+                      <!-- <input type="text" class="inp2" name="age" placeholder="age"> -->
+                      <select class="age" name="age">
+                          <option>age</option>
+                          <option>17</option>
+                          <option>18</option>
+                          <option>19</option>
+                          <option>20</option>
+                          <option>21</option>
+                          <option>22</option>
+                          <option>23</option>
+                          <option>24</option>
+                          <option>25</option>
+                          <option>26</option>
+                          <option>27</option>
+                          <option>28</option>
+                          <option>29</option>
+                          <option>30</option>
+                      </select>
+                      <input type="date" class="inp2" name="dob" placeholder="dob">
+                      <br></br>
+                      <input type="text" class="inp2" name="addre1" placeholder="street name" required>
+                      <input type="text" class="inp2" name="addre2" placeholder="village name" required>
+                      <br></br>
+                      <input type="text" class="inp2" name="addre3" placeholder="dirst name" required>
+                      <input type="number" class="inp2" name="addre4" placeholder="pin code" required>
+                      <br></br>
+                      <input type="text" class="inp2" name="addre5" placeholder="State" required >
+               
+                      <select class="opt" name="addre6">
+                          <option>India</option>
+                          <option>others</option>
+                      </select>
+                     
+
+                     </div>
+                     <div class="pic">
+                      img<input type="file" accept="image/*"  style="cursor: progress;" id="file" onchange="loadFile(event)">
+                       
+                        <img id="output"  class="imgg" width="200"/>
+                        <script>
+                            function loadFile(event){
+                                var output=document.getElementById('output');
+                                output.src=URL.createObjectURL(event.target.files[0]);
+                                //output.style.display="block";
+
+                            };
+   
+                        </script>
+
+                    </div>
+
+                     <div class="idc">
+                         <p>ID creation</p>
+                         <br></br>
+                         <input type="text" class="inp3" name="userid" placeholder="userId" aria-required="true">
+                         <br></br>
+                        <input type="text" class="inp3" name="pass" placeholder="password">
+                        <input type="password" class="inp3" placeholder="confirm password">
+                     </div>
+
+                     <div class="pic2">
+                        sign<input type="file" accept="image/*"  style="cursor: progress;" id="file" onchange="loadFile1(event)">
+                         
+                          <img id="output1"  class="imgg2" width="200"/>
+                          <script>
+                              function loadFile1(event){
+                                  var output=document.getElementById('output1');
+                                  output.src=URL.createObjectURL(event.target.files[0]);
+                                  //output.style.display="block";
+  
+                              };
+     
+                          </script>
+  
+                      </div>
+
+                     <div class="marks">
+    
+                        <table>
+                            <thead class="thead">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>marks</th>
+                                    <th>cutoff</th>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                                <tr class="tr1">
+                                    <td>10th mak</ktd>
+                                    <th><input type="text" class="xth"  name="xth" placeholder="0/500"></th>
+                                    <th><input type="text" class="cutx"  name="cutx" placeholder="0- 100 %"></th>
+                                    
+                                </tr>
+                                <tr class="tr2">
+                                    <td>12th marks</td>
+                                    <th><input type="text" class="iith" name="iith" placeholder="0/600 "></th>
+                                    <th><input type="text" class="cutii" name="cutii" placeholder="0-100%"></th>
+                                </tr>
+                              
+
+                            </tbody>
+                            
+                        </table>
+                     </div>
+                     
+                     <div class="but">
+                         <button type="button" name="savee" class="btn2" >Register </button>
+                    </div>
+              </div>
+          
+
+        </div>
+    </form>  
+    </body>
+</html>

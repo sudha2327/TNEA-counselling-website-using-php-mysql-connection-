@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.formm{
+    height: 100%;
+    width: 100%;
+    background-image:url("vlcsnap-2017-08-18-20h27m34s232.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.boxx{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    margin: 200px 500px;
+    /* background-color: white; */
+    background: transparent;
+    background-color: rgba(203, 205, 206, 0.904);
+   
+    padding:5px;
+}
+
+
+.tet{
+
+     height: 200px;
+     width: 200px;
+     position: absolute;
+     transition: .5s;
+     
+
+
+
+}
+.page{
+    padding: 5px;
+    margin: 20px 30px;
+    text-align: center;
+    color: blue;
+    text-shadow: red;
+}
+
+.inp{
+    width: 100%;
+    padding: 2px 0;
+   
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid red;
+    outline: none;
+    background: transparent;
+    margin: 20px 100px ; 
+
+}
+
+.us {
+  
+    text-indent: 100px;
+    
+
+}
+.pas{
+    text-indent: 100px;
+}
+
+.btn{
+    
+    width: 220px;
+     margin: 200px  98px auto; 
+    position: relative;
+    box-shadow: 0 0 20px 9px white;
+    border-radius: 30px;
+    background: red;
+}
+
+
+.tog{
+    
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-indent: 60px;
+    color: black;
+}
+
+
+.li{
+    text-align: center;
+    margin: 20px 98px;
+
+}
+
+.reg  a{
+    color: red;
+    text-align: center;
+    text-indent: 50px;
+}
